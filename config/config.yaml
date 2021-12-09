@@ -1,0 +1,13 @@
+CSV:
+  TRAIN_DATA_LOC: data/train
+  ID:
+  DRIVE_LINK:
+
+LOGGING:
+  LEVEL: DEBUG
+  FORMAT: '%(asctime)s --- %(name)s --- %(levelname)s --- %(funcName)s:%(lineno)d --- %(message)s'
+  FILEMODE: w
+
+APP:
+  ENVIRONMENT: test
+  DEBUG: True
